@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+    },
+    "strictNullChecks": true,
+    "module": "es6",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "jsxFactory": "React.createElement",
+    "jsxFragmentFactory": "React.Fragment",
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "target": "es6",
+    "lib": ["dom", "es2017"],
+    "skipLibCheck": true,
+    "stripInternal": true,
+  },
+  "include": ["**/*"],
+  "exclude": ["node_modules", "lib", "es"]
+}
